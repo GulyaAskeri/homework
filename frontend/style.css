@@ -1,0 +1,113 @@
+h1 ,
+h2 ,
+h3 ,
+h4{
+    background-color: aquamarine;
+    color:black;
+    padding: 20px;
+
+    
+}
+
+
+ h2{ 
+        color: red;
+        background-color: black; 
+        padding: 20px 10px; 
+        ;
+    }
+    a{
+        background-color: black;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+
+
+    }
+    
+    a:hover{
+        background-color: green;
+        color: white;
+
+    }
+
+    a:active{
+        background-color: red;
+        color: black;
+    }
+  a:visited{
+    background-color: blue;
+    color: white;
+  }
+  .bg{
+    width: 100%;
+    height: 900px;
+    background-repeat:no-repeat;
+    background-size:cover ;
+    background-position:center;
+    background-attachment:fixed;
+  }
+   
+  table{
+    margin: 30px;
+    width: 100%;
+
+    border-collapse: collapse;
+    }
+    
+    tr,
+    td,
+    th {
+         
+        padding: 20px;
+        
+    }
+    
+    
+/*     
+    th:nth-child(2n){
+        background-color: black;
+        color: white;
+        
+    }
+     
+    th:nth-child(2n+1){
+        background-color: rgb(119, 20, 20);
+        color: black;
+     } */
+
+      /* th:first-child {
+        background-color: aquamarine;
+        color: black;
+      } */
+/* 
+      th:nth-child(3n){
+        background-color: blue;
+        color: black;
+      }
+
+      th:nth-child(3n-1){
+        background-color: blueviolet;
+        color: black;
+      }
+      th:nth-child(3n-2){
+        background-color: brown;
+        color: black;
+      } */
+
+      th {
+        background-color: rgb(68, 66, 66);
+        color: rgb(242, 235, 235);
+      }
+
+      tr:nth-child(2n){
+        background-color: rgb(249, 249, 249);
+        color:black
+      }
+
+      tr:nth-child(2n-1){
+        background-color: rgb(231, 220, 220);
+        color:black
+      }
+      
+    
